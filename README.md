@@ -9,11 +9,7 @@ This is my solution to the Order summary solution on Frontend Mentor.
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)## Overview
 
 ### The challenge
 
@@ -31,6 +27,7 @@ Users should be able to:
 - Live Site URL: [Live Site](https://vincentx33.github.io/Order-summary-challenge/)
 
 ## My process
+
 Learning from my previous mistakes, I designed the box first and then did the positioning. Took longer than needed due to a bug in my gitHub page setup, but this one went really smooth. Partly lost time due to the need of trial and error in setting up background colors for elements
 ### Built with
 - html5 markup
@@ -42,4 +39,3 @@ Learning from my previous mistakes, I designed the box first and then did the po
 
 - Frontend Mentor - [@VincentX33](https://www.frontendmentor.io/profile/VincentX33)
 - Twitter - [@V1nceeeent](https://www.twitter.com/V1nceeeent/)
-- [Twitter] ![Twitter-pic](./images/icons8-twitter-30.png)(https://www.twitter.com/V1nceeeent/)
