@@ -6,9 +6,146 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Order Summary Challenge| Frontend Mentor Challenge</title>
     <link rel="icon" href="./images/favicon-32x32.png">
-    <link rel="stylesheet" href="/style.css">
+    <style>
+        body {
+    background-image: url("/images/pattern-background-desktop.svg");
+    background-color: hsl(225, 100%, 94%);
+    background-repeat: repeat-x;
+    display: grid;
+    font-size: 16px;
+}
+
+.flexclass {
+    width: 99vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    height: 460px;
+    width: 320px;
+    border-radius: 15px;
+    border-top-right-radius:20px;
+    background-color: hsl(0, 0%, 100%);
+    place-items: center;
+}
+
+.heroImage {
+    width: inherit;
+    margin-bottom: 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.OrderHeader {
+    margin:auto;
+    text-align: center;
+}
+
+.CaptionText {
+    margin:auto;
+    text-align: center;
+    width: 75%;
+    color: hsl(224, 23%, 55%);
+}
+.small-icon {
+    width: 50px;
+    height:50px;
+    margin-right:10px;
+}
+.SmallCard {
+    display: flex;
+    width: 80%;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    background-color: hsl(225, 100%, 98%);
+    margin-top:10px;
+    margin-bottom:30px;
+}
+.InnerDiv {
+    margin-right:30px;
+}
+
+.InnerCaption {
+    margin-top: -15px;
+    color:hsl(224, 23%, 55%);
+}
+
+#Link1{
+    color:hsl(245, 75%, 52%);
+}
+
+#Link2 {
+    text-decoration: none;
+    margin-top: 20px;
+    text-align: center;
+    width: 250px ;
+    color:white;
+    padding:10px 70px;  
+    background-color: hsl(245, 75%, 52%);
+    height: 40px;
+    /*margin:auto;*/
+    border-radius: 10px;
+    position:relative;
+    left:30px;
+}
+
+#Link3 {
+    margin-left: 110px;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    color:hsl(245, 75%, 52%);
+}
+
+#lowerLink {
+    margin-top:30px;
+}
+
+.attribution {
+    margin: auto;
+    margin-top:10px;
+    width: 250px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+#Link1:hover {
+    text-decoration: none;
+    color : hsla(245, 75%, 52%, 80%);
+}
+
+#Link2:hover {
+    background-color: hsla(245, 75%, 52%,60%);;
+}
+
+#Link3:hover {
+    color:hsl(245, 81%, 19%);
+    font-weight: bold;
+}
+
+.footer a{
+    text-decoration: none;
+}
+
+.icon-lg {
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+    border : 2px double blue;
+    padding: 10px;
+    margin: 30px;
+}
+    </style>
+    <link rel="stylesheet" href="/ssstyle.css">
+
 </head>
 <body>
+
     <div class="flexclass">
     <div class="card">
         <img src="./images/illustration-hero.svg" alt="Hero" class="heroImage">
